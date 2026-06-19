@@ -1,3 +1,3 @@
-FROM openjdk:22-slim-bullseye
+FROM FROM eclipse-temurin:22-jdk-jammy
 ADD *.jar app.jar
 ENTRYPOINT java -jar app.jar
